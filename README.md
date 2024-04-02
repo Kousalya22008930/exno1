@@ -21,7 +21,7 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-```
+
 import pandas as pd
 df=pd.read_csv("Data_set.csv")
 df.head(5)
@@ -78,6 +78,6 @@ sns.boxplot(data=qm)
 
 sns.scatterplot(data=qm)
 ![311438725-0941b0c5-8093-425c-b219-39b0a3fed0fa](https://github.com/Kousalya22008930/exno1/assets/119389108/04fd7a27-dd8c-481a-b368-80a152b41e71)
-```
+
 ## RESULT:
 Cleaning of Data and Removing of Outline executed successfully.
